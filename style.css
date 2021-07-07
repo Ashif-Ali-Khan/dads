@@ -1,0 +1,207 @@
+    body {
+        background-image: url(./images/bgm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .fa {
+        font-size: 20px;
+    }
+    
+    .logo img {
+        width: 135px;
+        height: 80px;
+        object-position: 0px -18px;
+    }
+    
+    .anime strong {
+        color: #4d4b4a;
+        font-size: 50px;
+    }
+    
+    h3 {
+        animation-duration: 8s;
+        animation-name: rightThenLeft;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        overflow: hidden;
+        white-space: nowrap;
+        display: inline-block;
+        text-shadow: 10px 10px 5px #aaaaaa;
+    }
+    
+    @keyframes rightThenLeft {
+        from {
+            margin-left: 50%;
+        }
+        to {
+            margin-left: 0%;
+        }
+    }
+    
+    .form-control {
+        width: 75%;
+        padding-left: 20px;
+        align-items: center;
+    }
+    
+    .regis {
+        width: 101%;
+    }
+    
+    .label {
+        font-size: 20px;
+    }
+    
+    .gradient-custom-3 {
+        /* fallback for old browsers */
+        background: #84fab0;
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.8), rgba(143, 211, 244, 0.8));
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgba(132, 250, 176, 0.8), rgba(143, 211, 244, 0.8))
+    }
+    
+    .gradient-custom-4 {
+        /* fallback for old browsers */
+        background: #84fab0;
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
+    
+    .grid1 {
+        color: white;
+        font-size: 30px;
+    }
+    
+    .gridcontent {
+        opacity: 1;
+        color: white;
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+    
+    .top-banner1 {
+        background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, .6));
+        opacity: 0.7;
+        background: linear-gradient;
+        height: 500px;
+        padding: 20px;
+        width: 600px;
+        margin: 10px 10px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    
+    .top-banner2 {
+        background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, .6));
+        opacity: 0.7;
+        height: 500px;
+        padding: 20px;
+        width: 600px;
+        margin: 10px 10px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    
+    .row {
+        margin-left: -2px;
+    }
+    
+    .orderbtn {
+        border-radius: 25px;
+        margin-top: 100px;
+        border: hidden;
+    }
+    
+    .orderbtn:hover {
+        font-size: 20px;
+        border: 2px solid;
+        text-emphasis-color: white;
+    }
+    
+    .shopping-order {
+        padding: 14px;
+    }
+    
+    nav.navbar.navbar-inverse {
+        top: 0px;
+        position: sticky;
+    }
+    
+    #aboutus {
+        background-image: url(./images/3275660.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        color: white;
+        height: 680px;
+        margin: 30px 10px;
+        padding: 20px 20px;
+        font-size: 19px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    
+    section h4 {
+        font-size: 30px;
+    }
+    
+    section h5 {
+        font-weight: bold;
+    }
+    
+    .column {
+        float: left;
+        width: 400px;
+        padding: 10px;
+        height: 210px;
+        /* Should be removed. Only for demonstration */
+    }
+    /* Clear floats after the columns */
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+        }
+    }
+    
+    .fa {
+        color: blue;
+        font-size: 30px;
+    }
+    
+    .fas {
+        color: blue;
+        font-size: 100px;
+        padding-left: 0px;
+    }
+    
+    footer {
+        background-image: url(./images/3275660.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        color: white;
+        height: 300px;
+        margin: 30px 10px;
+        padding: 20px 20px;
+        font-size: 19px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+    
+    footer h4 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    footer h5 {
+        font-weight: bold;
+    }
