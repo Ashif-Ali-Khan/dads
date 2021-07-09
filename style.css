@@ -4,6 +4,60 @@
         background-size: cover;
     }
     
+    .nav-elements {
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+    
+    .navbar .nav-elements :hover {
+        background-image: linear-gradient( to right, #8b8b88e3, #60615ae3);
+        animation: slidebg 20s linear infinite;
+        letter-spacing: 3px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    @keyframes slidebg {
+        to {
+            background-position: 90vw;
+        }
+    }
+    
+    .navbar .containerlogo .logo {
+        text-decoration: none;
+    }
+    
+    .containerlogo {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .logo {
+        color: #FB4264;
+        font-size: 3vw;
+        line-height: 4vw;
+        text-shadow: 0 0 3vw #F40A35;
+    }
+    
+    .logo {
+        animation: glow 1.2s ease infinite;
+        -moz-animation: glow 1.2s ease infinite;
+        -webkit-animation: glow 1.2s ease infinite;
+    }
+    
+    @keyframes glow {
+        0%,
+        100% {
+            text-shadow: 0 0 1vw #ff0000, 0 0 3vw #ff7300, 0 0 10vw #fffb00, 0 0 10vw #48ff00, 0 0 .4vw #00ffd5, .5 .5 .1vw #7a00ff;
+            color: #b6e973;
+        }
+        50% {
+            text-shadow: 0 0 .5vw #ff0000, 0 0 1.5vw #ff7300, 0 0 5vw #fffb00, 0 0 5vw #48ff00, 0 0 .2vw #002bff, .5 .5 .1vw #7a00ff;
+            color: #00ffd5;
+        }
+    }
+    
     .fa {
         font-size: 20px;
     }
@@ -123,11 +177,6 @@
     
     .shopping-order {
         padding: 14px;
-    }
-    
-    nav.navbar.navbar-inverse {
-        top: 0px;
-        position: sticky;
     }
     
     #aboutus {
